@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+footer .footer-container {
+  padding: 80px 0;
+  max-width: 1120px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+footer .footer-container .left-col {
+  display: flex;
+  flex-direction: column;
+}
+footer .footer-container .left-col svg {
+  margin: 0 0 50px 0;
+}
+footer .footer-container .left-col span {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 36px;
+  color: #a8a8b3;
+}
+footer .footer-container nav {
+  width: 100%;
+  max-width: 639px;
+  display: flex;
+  justify-content: space-between;
+}
+footer .footer-container nav ul span {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 36px;
+  color: #e1e1e6;
+}
+footer .footer-container nav ul li a {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 36px;
+  color: #a8a8b3;
+}
+footer .footer-container nav ul li a:hover {
+  text-decoration: underline;
+}
+@media screen and (max-width: 1024px) {
+  footer .footer-container {
+    margin: 0 24px;
+  }
+}
+@media screen and (max-width: 982px) {
+  footer .footer-container {
+    flex-direction: column;
+  }
+  footer .footer-container .left-col {
+    margin: 0 0 80px 0;
+  }
+}
+@media screen and (max-width: 425px) {
+  footer .footer-container nav {
+    margin-top: 64px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+body {
+  background: #121214;
+}/*# sourceMappingURL=index.css.map */
